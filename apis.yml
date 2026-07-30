@@ -1,7 +1,24 @@
 aid: long-game
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/long-game.png
 name: Long Game
-description: Long Game is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Long Game was a San Francisco fintech startup founded in 2015 by Lindsay
+  Holden that used prize-linked savings and casual mobile gaming to help Gen-Z and
+  millennial consumers build healthy financial habits and grow their savings. Backed
+  by Obvious Ventures and others (raising over $20M in venture capital), Long Game
+  was acquired by Truist Financial in May 2022 and folded into Truist Foundry, which
+  relaunched the Long Game app in May 2023. It is a consumer mobile product with no
+  public developer API surface, and the standalone longgame.co domain no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/long-game/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,22 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: truist
+x-acquired-date: '2022-05-03'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Gamification
+- Savings
+- Prize-Linked Savings
+- Banking
+- Consumer App
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://longgame.co
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
