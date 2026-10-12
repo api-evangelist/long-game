@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/long-game/integrations
+- https://n8n.io/integrations/long-game/
+- https://composio.dev/toolkits/long-game
+- https://monid.ai/tools/long-game
+checked:
+- https://composio.dev/toolkits/long-game
+- https://monid.ai/tools/long-game
+- https://n8n.io/integrations/long-game/
+- https://zapier.com/apps/long-game/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
